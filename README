@@ -1,0 +1,15 @@
+AdvGame is the temporary working name for a text based game engine / learning project.
+
+All the code is to be written in cross-platform compatible C++.
+
+The end goal is to have an engine that will import external / usereditable files
+to create all the items, players, rooms, exits, commands and storyline interactions.
+
+I know this is a "public" project (and I don't mind others seeing/helping) but I have
+no plans at this point to actively recruit more people. Why? Because you're probably
+a lot better at writing C++ than I am and this is first and foremost a learning 
+project. Although I really do want to write a game.
+
+These goals / premises can and probably will change at any time, but they are the 
+initial ground rules I'm setting for myself. At some point in the distant future
+I plan to start working with SFML libraries and add graphics. 
