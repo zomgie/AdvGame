@@ -11,7 +11,6 @@
 
 void parseCommand(std::string *pInput, int *pLoc);
 void doCommand(std::string inputFirst, std::string inputSecond, int *pLoc);
-void doLook(int *pLoc);
-
+void cmdLook(int *pLoc);
 
 #endif
