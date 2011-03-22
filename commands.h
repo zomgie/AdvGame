@@ -2,8 +2,6 @@
  *  commands.h
  *  AdvGame
  *
- *  Created by rhathar on 3/21/11.
- *  Copyright 2011 Novacoast, Inc.. All rights reserved.
  *
  */
 

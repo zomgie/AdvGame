@@ -2,8 +2,6 @@
  *  commands.cpp
  *  AdvGame
  *
- *  Created by rhathar on 3/21/11.
- *  Copyright 2011 Novacoast, Inc.. All rights reserved.
  *
  */
 
@@ -38,4 +36,5 @@ void doLook( int *pLoc )
 	std::cout << rooms[ *pLoc ].name << std::endl;
 	std::cout << rooms[ *pLoc ].desc << std::endl;
 }
+
 
