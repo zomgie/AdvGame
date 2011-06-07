@@ -1,19 +1,21 @@
 #include <iostream>
 #include "world.h"
 #include "commands.h"
-#include <map>
+#include "player.h"
 
 using namespace std;
 
 int main ()
 {
-	int currentLocation = 0;
-	string input;
+	hero.currentLocation = 0;
+	cmdLook(&hero);
+	
 	for(;;)
 	{
-		getline(cin, input);
-		parseCommand(&input, &currentLocation);
+		getline(cin, hero.input);
+		parseCommand(&hero);
 	}
+
 	
 }
 
